@@ -19,7 +19,6 @@ int main(){
 
 	VideoCapture capture;
 	capture.open("bouncingBall.avi");
-	//capture.open("light.mp4");
 
 	if(!capture.isOpened()){
 		cout<<"Video not aquired";
