@@ -21,7 +21,7 @@ int main(){
 	capture.open("bouncingBall.avi");
 
 	if(!capture.isOpened()){
-		cout<<"Video not aquired";
+		cout<<"Video failed to open";
 		return -1;
 	}
 
